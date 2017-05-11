@@ -1,0 +1,36 @@
+body{
+  background-color: #FD4000;
+
+}
+
+h1{
+  font-family: 'BioRhyme', serif;
+}
+
+#container{
+  margin: 0 auto;
+  width: 95%;
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#header{
+  border: solid thin blue;
+}
+
+#name{
+  border: solid thin yellow;
+  display: block;
+}
+
+#links li{
+  border:solid thin pink;
+  display: inline;
+
+  
+}
+
+
+
+
