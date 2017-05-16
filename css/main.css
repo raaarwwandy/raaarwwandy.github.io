@@ -1,36 +1,121 @@
 body{
-  background-color: #FD4000;
+  background-color: #FD6632;
+  font-family: 'Karla', sans-serif;
+  line-height: 16pt;
+  font-size: 11pt;
 
 }
 
 h1{
-  font-family: 'BioRhyme', serif;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+p{
+  font-family: 'Karla', sans-serif;
+  font-size: 11pt;
+  line-height: 15pt;
 }
 
 #container{
   margin: 0 auto;
+  margin-top:1rem;
   width: 95%;
-  background: white;
   display: flex;
   flex-flow: row wrap;
+  padding-top:1rem;
 }
 
-#header{
-  border: solid thin blue;
+#name-header{
+  display: block;
+  flex: 0 0 30%;
 }
 
 #name{
-  border: solid thin yellow;
+  font-size: 30px;
+  margin-bottom: 1rem;
+  margin-left: .5rem;
+  background: white;
+  padding: .75rem;
+}
+
+
+#personal-info{
   display: block;
 }
 
-#links li{
-  border:solid thin pink;
-  display: inline;
+#links{
+  padding-bottom: .5rem;
+}
 
-  
+#personal-info, #links{
+  margin-bottom: 1rem;
+  display: block;
+}
+
+#links li, #links li a, #links li a:visited, 
+ #personal-info li, #personal-info li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  background: white;
+  margin-left: .5rem;
 }
 
 
 
+#main-body{
+  flex: 0 0 65%;
+  margin-left: 2.5%;
+  background: white;
+  padding-top: 1rem;
+}
 
+
+.section{
+  width: 90%;
+  margin: 0 0 5% 5%;
+}
+
+h3{
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 300;
+  font-size: 12pt;
+  margin-bottom: 1%;
+  text-decoration: underline #FD6632;
+  color: #686868;
+}
+
+h5{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
+
+.description{
+  width: 90%;
+  margin-left: 2rem;
+  list-style-type: circle;
+  margin-bottom: 1rem;
+}
+
+.italic{
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.skills{
+  margin-bottom: .5rem;
+}
+.skills ul{
+  display: inline;
+}
+
+.skills li{
+  display: inline;
+  padding-right: .5rem;
+}
+
+.bold{
+   font-family: 'Karla', sans-serif;
+  font-weight: 800;
+}
