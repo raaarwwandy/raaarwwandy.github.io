@@ -27,29 +27,23 @@ p{
 
 #name-header{
   display: block;
-  flex: 0 0 30%;
+  flex: 0 0 20%;
 }
 
 #name{
   font-size: 30px;
   margin-bottom: 1rem;
-  margin-left: .5rem;
   background: white;
-  padding: .75rem;
+  padding: .75rem 0 .75rem 0;
 }
 
 
-#personal-info{
-  display: block;
-}
 
-#links{
-  padding-bottom: .5rem;
-}
 
 #personal-info, #links{
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   display: block;
+  padding: .75rem 0 .75rem 0;
 }
 
 #links li, #links li a, #links li a:visited, 
@@ -58,16 +52,16 @@ p{
   text-decoration: none;
   color: black;
   background: white;
-  margin-left: .5rem;
 }
 
 
 
+
 #main-body{
-  flex: 0 0 65%;
+  flex: 0 0 70%;
   margin-left: 2.5%;
   background: white;
-  padding-top: 1rem;
+  padding:2.25rem;
 }
 
 
@@ -79,7 +73,7 @@ p{
 h3{
   font-family: 'Inknut Antiqua', serif;
   font-weight: 300;
-  font-size: 12pt;
+  font-size: 13.5pt;
   margin-bottom: 1%;
   text-decoration: underline #FD6632;
   color: #686868;
